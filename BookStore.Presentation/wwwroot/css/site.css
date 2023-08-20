@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
