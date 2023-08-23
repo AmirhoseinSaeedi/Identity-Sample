@@ -7,8 +7,8 @@ namespace BookStore.Application.Contracts
     {
         Task<List<ValidationError?>?> CreateAsync(CreateUserDto user);
         Task<(List<GetAllUserDto?>?, List<ValidationError?>?)> GetAllAsync();
-        Task<List<ValidationError?>?> RemoveAsync(RemoveUserDto removeUserDto);
-        Task<(GetUserDto, List<ValidationError?>?)> GetUserByIdAsync(string id);
-        Task<List<ValidationError?>?> EditAsync(EditUserDto editUserDto);
+        Task<List<ValidationError?>?> RemoveAsync1(RemoveUserDto removeUserDto);
+        Task<(GetUserDto, List<ValidationError?>?)> GetUserByIdAsync1(string id);
+        Task<List<ValidationError?>?> EditAsync1(EditUserDto editUserDto);
     }
 }
